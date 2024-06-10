@@ -7,7 +7,7 @@ You could clone this repository and develop new API as you want.
 1. install packages: `% npm install`
 2. Start Server:
    - Not hot reloading: `% npx ts-node src/app.ts`
-   - Have hot reloading: `% npx nodemon --exec npx ts-node ./src/app.ts`
+   - Have hot reloading: `% npx nodemon`
 
 # How to check coding convension
 
