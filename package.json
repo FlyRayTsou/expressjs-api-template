@@ -5,8 +5,6 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "tsx": "tsx",
-    "eslint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

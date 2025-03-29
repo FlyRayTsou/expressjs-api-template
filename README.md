@@ -6,12 +6,12 @@ You could clone this repository and develop new API as you want.
 
 1. install packages: `% npm install`
 2. Start Server:
-   - Not hot reloading: `% npm run tsx src/app.ts`
-   - Have hot reloading: `% npx nodemon`
+   - Not hot reloading: `% npm exec tsx src/app.ts`
+   - Have hot reloading: `% npm exec nodemon`
 
 # How to check coding convension
 
-`% npm run eslint`
+`% npm exec eslint`
 
 # How to run unit test
 
