@@ -1,4 +1,4 @@
-// Read Data from Dummy, TODO: Read Data from Database
+// TODO: Read Data from Dummy, Read Data from Database
 import { users, products, orders } from '../data/dummyData.js';
 
 // Resolvers for the GraphQL queries
