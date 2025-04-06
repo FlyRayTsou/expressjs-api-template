@@ -27,7 +27,7 @@ export const resolvers = {
     // console.log('Resolved products:', productsForOrder); // Debugging line
 
     return {
-      ...order,
+      order: order,
       user: userForOrder,
       products: productsForOrder
     };
