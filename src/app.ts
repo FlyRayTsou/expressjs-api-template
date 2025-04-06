@@ -20,7 +20,7 @@ app.use(express.json());
 app.all('/graphql', (req, res, next) => {
     // Log the GraphQL query from request body
     if (req.body && req.body.query) {
-        // console.log('GraphQL Query:', req.body.query);
+        // console.log('GraphQL Query:', req.body.query);  // Debugging line
     }
     next();
 }, createHandler({
